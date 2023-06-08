@@ -78,7 +78,7 @@ export const Login = () => {
           </div>
           {errors.password && <p>{errors.password}</p>}
           <button type="submit" className="btn btn-primary text-center mt-3">
-            Iniciar Sesión
+            Iniciar sesión
           </button>
         </div>
       </form>
