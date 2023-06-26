@@ -54,7 +54,7 @@ export const LandingPage = () => {
         </h2>
         <div className="d-flex justify-content-center pt-5">
           <div className="row border border-dark rounded-3 p-3">
-            <div className="col-8">
+            <div className="col-lg-8 col-sm-12">
               <Menu
                 nombre={"Menu Principal"}
                 diaComida={comida.menuPrincipal}
@@ -67,7 +67,7 @@ export const LandingPage = () => {
               <Menu nombre={"Menu Dos"} diaComida={comida.menuDos} />
             </div>
             <div className="col-4">
-              <img src={cocinero} alt="" className="img-fluid" />
+              <img src={cocinero} alt="" className="img-fluid d-none d-sm-block" />
             </div>
           </div>
         </div>
