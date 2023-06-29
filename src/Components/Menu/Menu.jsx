@@ -12,7 +12,7 @@ export const Menu = ({ diaComida, nombre }) => {
 
           </div>
         </div>
-        <div className="col-6 col-sm-10 text-start fs-4">
+        <div className="col-6 col-sm-10 text-start fs-4 mt-4">
           {nombre}: <span className="fs-5 text-primary mt-4">{diaComida}</span>
         </div>
       </div>
