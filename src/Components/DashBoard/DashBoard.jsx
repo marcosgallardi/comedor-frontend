@@ -53,7 +53,7 @@ export const DashBoard = () => {
             className="form-control"
           />
           <label htmlFor="" className="form-label">
-            Menu Dieta
+            Menu Uno
           </label>
           <input
             type="text"
@@ -63,7 +63,7 @@ export const DashBoard = () => {
             className="form-control"
           />
           <label htmlFor="" className="form-label">
-            Menu uno
+            Menu Dos
           </label>
           <input
             type="text"
@@ -73,7 +73,7 @@ export const DashBoard = () => {
             className="form-control"
           />
           <label htmlFor="" className="form-label">
-            Menu dos
+            Menu Dieta
           </label>
           <input
             type="text"
