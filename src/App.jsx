@@ -4,7 +4,7 @@ import { Login } from "./Auth/Login";
 import { DashBoard } from "./Components/DashBoard/DashBoard";
 import axios from "axios";
 
-axios.defaults.baseURL = "https://comedor-server-production.up.railway.app/";
+axios.defaults.baseURL = "https://comedor-server.vercel.app/";
 
 function App() {
   return (
